@@ -5,13 +5,13 @@ import SignupFree from './components/SignupFree'
 
 const Home = () => {
   return (
-    <div>
-        <div >
-            <div>
+    <div className='w-full pl-[5rem]'>
+        <div className='w-full flex items-start gap-2'>
+            <div className='flex-1 px-4'>
                 <Navbar />
                 <HeroPage />
             </div>
-            <div>
+            <div className='w-[250px]'>
                 <SignupFree />
             </div>
         </div>
