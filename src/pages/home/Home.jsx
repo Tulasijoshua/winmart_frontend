@@ -4,6 +4,8 @@ import HeroPage from './components/HeroPage'
 import SignupFree from './components/SignupFree'
 import Category from './components/Category'
 import Trending from './components/Trending'
+import Payday from './components/Payday'
+import Featured from './components/Featured'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
         </div>
         <Category />
         <Trending />
+        <Payday />
+        <Featured />
     </div>
   )
 }
