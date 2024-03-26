@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import HeroPage from './components/HeroPage'
 import SignupFree from './components/SignupFree'
 import Category from './components/Category'
+import Trending from './components/Trending'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
             </div>
         </div>
         <Category />
+        <Trending />
     </div>
   )
 }
