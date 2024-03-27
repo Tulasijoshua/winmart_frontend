@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className='w-full '>
         <div className='w-full pl-[5rem] flex items-start gap-2 bg-[#f9f9f9]'>
-            <div className='flex-1 px-4'>
+            <div className='maxContainer flex-1 px-4'>
                 <Navbar />
                 <HeroPage />
             </div>

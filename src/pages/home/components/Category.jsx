@@ -40,7 +40,7 @@ const Category = () => {
         },
     ]
   return (
-    <div className='py-[3rem] w-[70%] mx-auto'>
+    <div className='maxContainer py-[3rem] w-[70%] mx-auto'>
         <h2 className='text-[1.1rem] pb-[1.3rem]'>Category</h2>
         <section className='px-[6rem] py-[1.5rem] flex justify-between items-center bg-[#F6F6F8]'>
             {

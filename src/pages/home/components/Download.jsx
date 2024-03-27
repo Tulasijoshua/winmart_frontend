@@ -7,7 +7,7 @@ import mobileAds from '../items/mobile_ad.svg'
 const Download = () => {
   return (
     <div className='w-full py-[3.5rem] bg-[#F6F6F8]'>
-        <div className='w-[70%] mx-auto flex justify-between items-center'>
+        <div className='maxContainer w-[70%] mx-auto flex justify-between items-center'>
             <section>
                 <div className='w-fit relative'>
                     <div className="w-[230px] h-[65px] px-[1.5rem] bg-[#2A2163] transform -rotate-6"></div>
