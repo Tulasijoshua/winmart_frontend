@@ -15,7 +15,7 @@ const HeroPage = () => {
       <div className='w-full flex justify-start items-center gap-3 '>
         <div className='w-[45%] pt-[0.7rem]'>
           <small className='text-[15px]  uppercase'>Design by King David</small>
-          <div className='playFair text-[7.5rem] text-[#EEB28D] leading-[9rem] font-bold tracking-wide'>hoodie</div>
+          <div className='playFair 2xl:text-[7.5rem] text-[6rem] text-[#EEB28D] 2xl:leading-[9rem] font-bold tracking-wide'>hoodie</div>
           <div className='w-[300px] py-[1rem]'>
             <small className='text-[16px] text-gray-300'>Description</small>
             <p className='py-[0.5rem] text-[16px] leading-[1.4rem] '>
@@ -40,12 +40,12 @@ const HeroPage = () => {
           </div>
         </div>
         <div className='flex-1'>
-          <div className='flex justify-end w-[450px]'>
+          <div className='flex justify-end 2xl:w-[450px] w-[350px]'>
             <div className='w-[25px] h-[25px] rounded-full border-[3px] border-gray-300'></div>
           </div>
           <div className='relative'>
-            <div className='w-[400px] h-[400px] m-auto rounded-full bg-gradient-to-b from-[#2A2163] to-[#2A216370]'></div>
-            <div className='absolute inset-y-0 left-1/2 -top-32 -translate-x-[55%] w-[400px] h-[600px] '>
+            <div className='2xl:w-[450px] w-[400px] 2xl:h-[450px] h-[400px] m-auto rounded-full bg-gradient-to-b from-[#2A2163] to-[#2A216370]'></div>
+            <div className='absolute inset-y-0 left-1/2 -top-32 -translate-x-[55%]  2xl:w-[430px] w-[400px] 2xl:h-[630px] h-[600px] '>
               <img className='w-full h-full object-cover' src={heroImg} alt="" />
             </div>
             <div className='w-[30px] h-[30px] rounded-full bg-gray-400'></div>

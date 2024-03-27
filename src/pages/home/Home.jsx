@@ -15,11 +15,11 @@ const Home = () => {
   return (
     <div className='w-full '>
         <div className='w-full pl-[5rem] flex items-start gap-2 bg-[#f9f9f9]'>
-            <div className='maxContainer flex-1 px-4'>
+            <div className='maxHero flex-1 px-4'>
                 <Navbar />
                 <HeroPage />
             </div>
-            <div className='w-[280px]'>
+            <div className='2xl:w-[260px] w-[240px]'>
                 <SignupFree />
             </div>
         </div>

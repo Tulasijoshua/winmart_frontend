@@ -8,10 +8,10 @@ const Payday = () => {
     <div className='w-full mb-2 pt-[5rem] bg-[#FF8900]'>
         <div className='maxContainer w-[70%] mx-auto flex justify-between '>
             <div className='flex-1'>
-                <img className='h-[400px]' src={payday} alt="" />
+                <img className='2xl:h-[420px] h-[400px]' src={payday} alt="" />
             </div>
             <div className='flex-1 '>
-                <div className='w-[50%] mx-auto flex flex-col justify-center items-center'>
+                <div className='w-[300px] mx-auto flex flex-col justify-center items-center'>
                     <div className='w-fit relative'>
                         <div className="w-[230px] h-[65px] px-[1.5rem] bg-white transform -rotate-6"></div>
                         <h2 className='absolute inset-y-0 left-1/2 -translate-x-1/2 top-1 text-[2.8rem] uppercase font-semibold'>PayDay</h2>

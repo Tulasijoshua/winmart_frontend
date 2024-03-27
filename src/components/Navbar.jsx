@@ -8,15 +8,15 @@ const Navbar = () => {
             <img className='w-full h-full ' src={logo} alt="" />
         </div>
         <div className='flex justify-center items-center gap-3'>
-            <div className='w-[150px] px-3 text-gray-500 border border-gray-300 rounded-2xl'>
-                <select className='w-full py-[7px] text-[0.8rem] border-none outline-none'>
+            <div className='w-[150px] px-3 text-gray-500 bg-[#F7F7F7] border border-gray-300 rounded-2xl'>
+                <select className='w-full py-[7px] text-[0.8rem] bg-[#F7F7F7] border-none outline-none'>
                     <option value="all_category" className=''>All Category</option>
                     <option value="men_clothes" className=''>Men Clothes</option>
                     <option value="ladies_dress" className=''>Ladies Dress</option>
                 </select>
             </div>
-            <div className='w-[200px] px-3 py-[7px] flex justify-between items-center  border border-gray-300 rounded-2xl'>
-                <input className='text-[0.8rem] border-none outline-none' type="text" />
+            <div className='w-[200px] px-3 py-[7px] flex justify-between items-center bg-[#F7F7F7] border border-gray-300 rounded-2xl'>
+                <input className='text-[0.8rem] border-none outline-none bg-[#F7F7F7]' type="text" />
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-gray-400">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />

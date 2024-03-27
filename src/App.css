@@ -11,7 +11,12 @@ body {
 }
 
 .maxContainer {
-  max-width: 100rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.maxHero {
+  max-width: 80rem;
   margin: 0 auto;
 }
 
