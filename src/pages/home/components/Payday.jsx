@@ -6,7 +6,7 @@ import PaydayBtn from '../../../common/PaydayBtn'
 const Payday = () => {
   return (
     <div className='w-full mb-2 pt-[5rem] bg-[#FF8900]'>
-        <div className='w-[80%] mx-auto flex justify-between '>
+        <div className='w-[70%] mx-auto flex justify-between '>
             <div className='flex-1'>
                 <img className='h-[400px]' src={payday} alt="" />
             </div>

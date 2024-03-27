@@ -5,7 +5,7 @@ import chopItem from '../items/available/chop_item.svg'
 
 const Available = () => {
   return (
-    <div className='w-[80%] mx-auto py-[4.5rem] flex justify-between items-start gap-[3rem]'>
+    <div className='w-[70%] mx-auto py-[4.5rem] flex justify-between items-start gap-[3rem]'>
         <section className='flex-1 py-[3.5rem]'>
             <h2 className='popp w-[500px] text-[3rem] font-bold uppercase leading-[4rem]'>Available stores on winmart</h2>
             <p className='w-[350px] py-[1rem] text-[20px] leading-[1.8rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>

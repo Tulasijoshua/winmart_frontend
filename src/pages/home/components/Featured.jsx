@@ -37,7 +37,7 @@ const Featured = ({title}) => {
         },
     ]
   return (
-    <div className='w-[80%] mx-auto pt-[4rem] pb-[2rem]'>
+    <div className='w-[70%] mx-auto pt-[4rem] pb-[2rem]'>
         <div className='pb-[0.8rem] flex justify-between items-center'>
             <h2 className='text-[1.1rem] pb-[1.3rem]'>{title}</h2>
             <div className='flex justify-center items-center gap-[0.5rem]'>

@@ -28,7 +28,7 @@ const Trending = () => {
         },
     ]
   return (
-    <div className='pt-[1rem] pb-[2rem] w-[80%] mx-auto'>
+    <div className='pt-[1rem] pb-[2rem] w-[70%] mx-auto'>
         <div className='pb-[0.8rem] flex justify-between items-center'>
             <h2 className='text-[1.1rem] pb-[1.3rem]'>Trending Products</h2>
             <div className='flex justify-center items-center gap-[0.5rem]'>
