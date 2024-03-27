@@ -8,6 +8,7 @@ import Payday from './components/Payday'
 import Featured from './components/Featured'
 import Download from './components/Download'
 import Available from './components/Available'
+import Contact from './components/Contact'
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
         <Featured title='Top Sales' />
         <Download />
         <Available />
+        <Contact />
     </div>
   )
 }
