@@ -9,6 +9,7 @@ import Featured from './components/Featured'
 import Download from './components/Download'
 import Available from './components/Available'
 import Contact from './components/Contact'
+import Footer from '../../components/Footer'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         <Download />
         <Available />
         <Contact />
+        <Footer />
     </div>
   )
 }

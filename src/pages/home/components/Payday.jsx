@@ -13,7 +13,7 @@ const Payday = () => {
             <div className='flex-1 '>
                 <div className='w-[50%] mx-auto flex flex-col justify-center items-center'>
                     <div className='w-fit relative'>
-                        <div className="w-[230px] h-[65px] px-[1.5rem] bg-${backgroundClr} transform -rotate-6"></div>
+                        <div className="w-[230px] h-[65px] px-[1.5rem] bg-white transform -rotate-6"></div>
                         <h2 className='absolute inset-y-0 left-1/2 -translate-x-1/2 top-1 text-[2.8rem] uppercase font-semibold'>PayDay</h2>
                     </div>
                     <div className='popp py-[1.5rem] text-[2.3rem] font-bold text-center uppercase pt-[2rem] leading-[1.7rem]'>Sale now</div>
