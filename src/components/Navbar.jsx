@@ -4,19 +4,19 @@ import logo from '../assets/images/winmart_logo.svg'
 const Navbar = () => {
   return (
     <nav className='w-full py-4 flex justify-between items-center'>
-        <div className='w-[45px] h-[45px]'>
+        <div className='lg:w-[45px] w-[35px] lg:h-[45px] h-[35px]'>
             <img className='w-full h-full ' src={logo} alt="" />
         </div>
-        <div className='flex justify-center items-center gap-3'>
-            <div className='w-[150px] px-3 text-gray-500 bg-[#F7F7F7] border border-gray-300 rounded-2xl'>
-                <select className='w-full py-[7px] text-[0.8rem] bg-[#F7F7F7] border-none outline-none'>
+        <div className='flex justify-center items-center lg:gap-3 gap-2'>
+            <div className='lg:w-[150px] w-[130px] px-3 text-gray-500 bg-[#F7F7F7] border border-gray-300 rounded-2xl'>
+                <select className='w-full lg:py-[7px] py-[4px] text-[0.8rem] bg-[#F7F7F7] border-none outline-none'>
                     <option value="all_category" className=''>All Category</option>
                     <option value="men_clothes" className=''>Men Clothes</option>
                     <option value="ladies_dress" className=''>Ladies Dress</option>
                 </select>
             </div>
-            <div className='w-[200px] px-3 py-[7px] flex justify-between items-center bg-[#F7F7F7] border border-gray-300 rounded-2xl'>
-                <input className='text-[0.8rem] border-none outline-none bg-[#F7F7F7]' type="text" />
+            <div className='lg:w-[200px] w-[150px] px-3 lg:py-[7px] py-[4px] flex justify-between items-center bg-[#F7F7F7] border border-gray-300 rounded-2xl'>
+                <input className='w-full text-[0.8rem] border-none outline-none bg-[#F7F7F7]' type="text" />
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-gray-400">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-        <div className='flex items-center gap-3'>
+        <div className='flex items-center lg:gap-3 gap-2'>
             <div className='text-[12px] font-medium'>
                 <div className='text-gray-300'>Hello, Sign in</div>
                 <div className='text-[13px]'>My Account</div>

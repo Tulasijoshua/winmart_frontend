@@ -28,7 +28,7 @@ const Trending = () => {
         },
     ]
   return (
-    <div className='maxContainer pt-[1rem] pb-[2rem] w-[70%] mx-auto'>
+    <div className='maxContainer pt-[1rem] pb-[2rem] xl:w-[70%] w-[85%] mx-auto'>
         <div className='pb-[0.8rem] flex justify-between items-center'>
             <h2 className='text-[1.1rem] pb-[1.3rem]'>Trending Products</h2>
             <div className='flex justify-center items-center gap-[0.5rem]'>
@@ -44,12 +44,12 @@ const Trending = () => {
                 </div>
             </div>
         </div>
-        <section className='flex justify-between items-center'>
+        <section className='flex justify-between items-center flex-nowrap gap-[2.5rem] overflow-auto'>
             {
                 trending.map((trend, index) => {
                     return <div className='hover:scale-105 transition-all'>
-                        <div className='2xl:w-[13rem] w-[12rem] 2xl:h-[17rem] h-[15rem] px-1 bg-gray-100 shadow-md border-gray-200  flex flex-col justify-center items-center'>
-                            <div className='2xl:w-[13rem] w-[12rem] 2xl:h-[13rem] h-[12rem]'>
+                        <div className='2xl:w-[13rem] xl:w-[12rem] w-[11rem] 2xl:h-[17rem] xl:h-[15rem] h-[14rem] px-1 bg-gray-100 shadow-md border-gray-200  flex flex-col justify-center items-center'>
+                            <div className='2xl:w-[13rem] xl:w-[12rem] w-[11rem] 2xl:h-[13rem] xl:h-[12rem] h-[12rem]'>
                                 <img className='w-full h-full object-cover' src={trend.img} alt="" />
                             </div>
                         </div>

@@ -7,26 +7,26 @@ import mobileAds from '../items/mobile_ad.svg'
 const Download = () => {
   return (
     <div className='w-full mt-[5rem] py-[3.5rem] bg-[#F6F6F8]'>
-        <div className='maxContainer w-[70%] mx-auto flex justify-between items-center'>
+        <div className='maxContainer xl:w-[70%] lg:w-[80%] w-[90%] mx-auto flex justify-between items-center'>
             <section>
                 <div className='w-fit relative'>
-                    <div className="w-[230px] h-[65px] px-[1.5rem] bg-[#2A2163] transform -rotate-6"></div>
-                    <h2 className='absolute inset-y-0 left-1/2 -translate-x-1/2 top-1 text-white text-[2.8rem] uppercase font-semibold'>PayDay</h2>
+                    <div className="lg:w-[230px] w-[200px] lg:h-[65px] h-[55px] px-[1.5rem] bg-[#2A2163] transform -rotate-6"></div>
+                    <h2 className='absolute inset-y-0 left-1/2 -translate-x-1/2 top-1 text-white lg:text-[2.8rem] text-[2.4rem] uppercase font-semibold'>PayDay</h2>
                 </div>
-                <div className='text-[2.5rem] font-semibold pt-[1.5rem] uppercase leading-[3rem]'>Download app &</div>
-                <div className='popp text-[2.5rem] font-bold uppercase'>Get the coupon</div>
-                <p className='w-[300px] py-[0.5rem] text-[18px] leading-[1.7rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>
+                <div className='lg:text-[2.5rem] text-[2rem] font-semibold pt-[1.5rem] uppercase leading-[3rem]'>Download app &</div>
+                <div className='popp lg:text-[2.5rem] text-[2rem] font-bold uppercase'>Get the coupon</div>
+                <p className='lg:w-[300px] w-[250px] py-[0.5rem] lg:text-[18px] text-[15px] lg:leading-[1.7rem] leading-[1.3rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>
                 <div className='py-[1rem] flex justify-start items-center gap-[1rem]'>
-                    <div className='w-[3rem] h-[2.5rem]'>
+                    <div className='lg:w-[3rem] w-[2.5rem] lg:h-[2.5rem] h-[2rem]'>
                         <img className='w-full h-full border' src={playStore} alt="Play Store" />
                     </div>
-                    <div className='w-[3rem] h-[2.5rem]'>
+                    <div className='lg:w-[3rem] w-[2.5rem] lg:h-[2.5rem] h-[2rem]'>
                         <img className='w-full h-full border' src={appStore} alt="Play Store" />
                     </div>
                 </div>
             </section>
             <section>
-                <div className='w-[430px] h-[370px]'>
+                <div className='lg:w-[430px] w-[350px] lg:h-[370px] h-[300px]'>
                     <img className='w-full h-full object-cover' src={mobileAds} alt="" />
                 </div>
             </section>

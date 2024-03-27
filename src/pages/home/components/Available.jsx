@@ -8,10 +8,10 @@ import watch from '../items/available/watch.svg';
 
 const Available = () => {
   return (
-    <div className='maxContainer w-[70%] mx-auto py-[4.5rem] flex justify-between items-start gap-[3rem]'>
-        <section className='flex-1 py-[3.5rem]'>
-            <h2 className='popp 2xl:w-[500px] w-[450px] 2xl:text-[3rem] text-[2.5rem] font-bold uppercase leading-[4rem]'>Available stores on winmart</h2>
-            <p className='w-[350px] py-[1rem] text-[20px] leading-[1.8rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>
+    <div className='maxContainer xl:w-[70%] lg:w-[85%] w-[90%] mx-auto py-[4.5rem] flex justify-between items-start gap-[3rem]'>
+        <section className='xl:flex-1 lg:w-[45%] w-[40%] py-[3.5rem]'>
+            <h2 className='popp 2xl:w-[500px] xl:w-[450px] lg:w-[350px] w-[300px] 2xl:text-[3rem] xl:text-[2.5rem] lg:text-[2.1rem] text-[1.8rem] font-bold uppercase xl:leading-[4rem] lg:leading-[3rem] leading-[2.5rem]'>Available stores on winmart</h2>
+            <p className='xl:w-[350px] w-[270px] py-[1rem] xl:text-[20px] text-[16px] xl:leading-[1.8rem] leading-[1.5rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>
             <div className='pt-[3.5rem]'>
                 <CartButton title="View All" />
             </div>

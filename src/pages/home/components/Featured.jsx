@@ -37,8 +37,8 @@ const Featured = ({title}) => {
         },
     ]
   return (
-    <div className='maxContainer w-[70%] mx-auto pt-[4rem] '>
-        <div className='pb-[0.8rem] flex justify-between items-center'>
+    <div className='maxContainer xl:w-[70%] w-[85%] mx-auto lg:pt-[4rem] pt-[3rem]'>
+        <div className='lg:pb-[0.8rem] flex justify-between items-center'>
             <h2 className='text-[1.1rem] pb-[1.3rem]'>{title}</h2>
             <div className='flex justify-center items-center gap-[0.5rem]'>
                 <div className='text-gray-300'>
@@ -54,19 +54,19 @@ const Featured = ({title}) => {
             </div>
         </div>
 
-        <section className='w-full flex justify-between items-center gap-[2rem]'>
+        <section className='w-full py-[0.5rem] flex justify-between items-center lg:gap-[2rem] flex-nowrap gap-[2.5rem] overflow-auto'>
             {
                 featured.map((item, index) => (
-                    <div className='w-[230px] bg-[#F9F9F9] shadow-md rounded-lg hover:scale-105 transition-all ease-in-out delay-150 duration-300'>
-                        <div className='w-full h-[200px] self-start'>
+                    <div className='lg:w-[230px] w-[200px] bg-[#F9F9F9] shadow-md rounded-lg hover:scale-105 transition-all ease-in-out delay-150 duration-300'>
+                        <div className='lg:w-[230px] w-[200px] lg:h-[200px] h-[150px] self-start'>
                             <img className='w-full h-full object-cover rounded-t-md' src={item.img} alt="" />
                         </div>
                         <div className='px-[1rem] pt-[1rem] pb-[0.7rem]'>
-                            <div className='text-[16px] pb-1'>HD IPD Display</div>
-                            <small className='py-[5px] text-[14px]'>$20</small><br />
-                            <small className='text-[14px]'>free delivery</small>
+                            <div className='lg:text-[16px] text-[14px] pb-1'>HD IPD Display</div>
+                            <small className='py-[5px] lg:text-[14px] text-[13px]'>$20</small><br />
+                            <small className='lg:text-[14px] text-[13px]'>free delivery</small>
                             <div className='pt-[0.5rem] flex justify-between items-center'>
-                                <div className='px-[0.8rem] py-[.3rem] text-[13px] border-2 border-[#EC5937] rounded-md'>
+                                <div className='px-[0.8rem] lg:py-[.3rem] py-[0.2rem] text-[13px] border-2 border-[#EC5937] rounded-md'>
                                     Get Now
                                 </div>
                                 <div className='text-[20px] font-medium'>$20</div>

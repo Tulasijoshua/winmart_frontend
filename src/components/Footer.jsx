@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='w-full pt-[4rem] pb-[4.5rem] bg-[#000]'>
         <div className='maxContainer w-[65%] mx-auto flex justify-between items-start gap-[2rem]'>
             <section>
-                <div className='w-[5rem] h-[5rem]'>
+                <div className='xl:w-[5rem] w-[4rem] xl:h-[5rem] h-[4rem]'>
                     <img className='w-full h-full' src={logo} alt="" />
                 </div>
                 <div className='pt-[2.5rem] text-[13px] text-white'>Sunyani, Ghana</div>
