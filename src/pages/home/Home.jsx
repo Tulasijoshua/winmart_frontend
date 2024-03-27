@@ -6,6 +6,8 @@ import Category from './components/Category'
 import Trending from './components/Trending'
 import Payday from './components/Payday'
 import Featured from './components/Featured'
+import Download from './components/Download'
+import Available from './components/Available'
 
 const Home = () => {
   return (
@@ -22,7 +24,10 @@ const Home = () => {
         <Category />
         <Trending />
         <Payday />
-        <Featured />
+        <Featured title='Featured Products' />
+        <Featured title='Top Sales' />
+        <Download />
+        <Available />
     </div>
   )
 }
