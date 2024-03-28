@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import logo from '../assets/images/winmart_logo2.svg';
+import food from '../assets/images/food.svg'
 
 const Navbar2 = () => {
+    const navRef = useRef();
+
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav")
+    }
+    
   return (
-    <div className='w-full px-[2rem] py-[1rem] flex justify-between items-center'>
+    <div className='w-full px-[2rem] py-[0.7rem] flex justify-between items-center fixed top-0 bg-white z-[99] shadow-md'>
         <div className='w-[2.5rem] h-[2.5rem]'>
             <img className='w-full h-full' src={logo} alt="" />
         </div>
@@ -23,14 +30,36 @@ const Navbar2 = () => {
                     2
                 </div>
             </div>
-            <div>
+            <div onClick={showNavbar}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                 </svg>
-
             </div>
         </div>
-        <div className='fixed right-0 top-0 w-full h-[100vh] bg-blend-overlay transparent blur-md z-[99]'></div>
+        <div ref={navRef} className='nav fixed right-0 top-0 w-full h-[100vh] bg-[#333333cc]  z-[99]'>
+            <div className='w-[85%] mx-auto py-[3.5rem]'>
+                <div className='flex justify-between items-center gap-[2rem]'>
+                    <div onClick={showNavbar} className='px-[6px] py-[5px] border-[2px] border-white rounded-md text-white'>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <div className='py-[0.6rem] px-[1.1rem] text-white text-[0.9rem] uppercase bg-[#E9951780] rounded-md border border-[#E99517]'>Sign up free</div>
+                </div>
+
+                <div className='pt-[4rem] 2xl:px-[3.5rem] px-[2rem] flex flex-col justify-center items-end gap-[2rem]'>
+                    <div onClick={showNavbar} className=' flex justify-center items-center gap-[2px] text-white'>
+                        <div className='text-[20px]  text-gray-200'>Food App</div>
+                        <div className='w-[2.5rem] h-[2.5rem]'>
+                            <img className='w-full h-full' src={food} alt="Restaurant" />
+                        </div>
+                    </div>
+                    <div onClick={showNavbar} className='text-[20px] text-gray-200'>Accessories</div>
+                    <div onClick={showNavbar} className='text-[20px] text-gray-200'>Latops</div>
+                    <div onClick={showNavbar} className='text-[20px] text-gray-200'>Watch</div>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }

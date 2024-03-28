@@ -5,7 +5,7 @@ import Arrow from '../items/arrow_forward.svg';
 
 const MobileHero = () => {
   return (
-    <div className='w-full pt-[0.5rem] bg-[#F06152]'>
+    <div className='w-full pt-[4rem] bg-[#F06152]'>
         <div className='sm:w-[80%] w-[85%] mx-auto relative'>
             <div className=''>
                 <h2 className='playFair sm:text-[6rem] xs:text-[5rem] text-[4rem] font-bold text-white tracking-wide'>hoodie</h2>

@@ -30,8 +30,8 @@ const Download = () => {
                     <img className='w-full h-full object-cover' src={mobileAds} alt="" />
                 </div>
             </section>
-            <div className='xs:w-[380px] xs:h-[380px] absolute left-8  border-[5px] rounded-full z-[1]'></div>
-            <div className='xs:w-[450px] xs:h-[450px] absolute  border-[5px] rounded-full z-[1]'></div>
+            <div className='sm:hidden block xs:w-[380px] xs:h-[380px] absolute left-8  border-[5px] rounded-full z-[1]'></div>
+            <div className='sm:hidden block xs:w-[450px] xs:h-[450px] absolute  border-[5px] rounded-full z-[1]'></div>
         </div>
     </div>
   )
