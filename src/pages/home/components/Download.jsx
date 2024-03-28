@@ -15,7 +15,7 @@ const Download = () => {
                 </div>
                 <div className='lg:text-[2.5rem] md:text-[2rem] text-[1.7rem] font-semibold pt-[1.5rem] uppercase leading-[3rem]'>Download app &</div>
                 <div className='popp lg:text-[2.5rem] md:text-[2rem] text-[1.7rem] font-bold uppercase'>Get the coupon</div>
-                <p className='lg:w-[300px] w-[250px] py-[0.5rem] lg:text-[18px] text-[15px] lg:leading-[1.7rem] leading-[1.3rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>
+                <p className='lg:w-[300px] ss:w-[250px] py-[0.5rem] lg:text-[18px] text-[15px] lg:leading-[1.7rem] leading-[1.3rem]'>Get 30% off on your first transaction using Winmart mobile app for now</p>
                 <div className='py-[1rem] flex justify-start items-center gap-[1rem]'>
                     <div className='lg:w-[3rem] w-[2.5rem] lg:h-[2.5rem] h-[2rem]'>
                         <img className='w-full h-full border' src={playStore} alt="Play Store" />
@@ -30,8 +30,8 @@ const Download = () => {
                     <img className='w-full h-full object-cover' src={mobileAds} alt="" />
                 </div>
             </section>
-            <div className='sm:hidden block xs:w-[380px] xs:h-[380px] absolute left-8  border-[5px] rounded-full z-[1]'></div>
-            <div className='sm:hidden block xs:w-[450px] xs:h-[450px] absolute  border-[5px] rounded-full z-[1]'></div>
+            <div className='sm:hidden block xs:w-[380px] xs:h-[380px] absolute xs:left-8  border-[5px] rounded-full z-[1]'></div>
+            <div className='sm:hidden block xs:w-[450px] xs:h-[450px] absolute border-[5px] rounded-full z-[1]'></div>
         </div>
     </div>
   )

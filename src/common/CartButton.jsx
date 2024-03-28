@@ -2,7 +2,7 @@ import React from 'react'
 
 const CartButton = ({title}) => {
   return (
-    <div className='w-fit px-[1.1rem] py-[0.7rem] flex justify-center items-center gap-[0.7rem] bg-[#EC5937]'>
+    <div className='w-fit sm:px-[1.1rem] px-[0.5rem] sm:py-[0.7rem] py-[0.5rem] flex justify-center items-center gap-[0.7rem] bg-[#EC5937] cursor-pointer'>
         <div className='text-[13px] text-white font-medium'>{title}</div>
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-[#fff]">

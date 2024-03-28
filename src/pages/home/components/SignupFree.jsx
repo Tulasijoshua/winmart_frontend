@@ -9,13 +9,13 @@ const SignupFree = () => {
   }
 
   return (
-    <div className=' w-full'>
+    <div className=' w-full '>
       <div onClick={showSide} className='lg:hidden block pt-[1rem]'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
           </svg>
       </div>
-      <div ref={navRef} className='nav lg:w-full w-[230px]  lg:relative fixed right-0 top-0  h-[400px] py-[2rem] px-[1.5rem] bg-[#13152D] rounded-bl-[12rem]'>
+      <div ref={navRef} className='nav lg:w-full w-[230px]  lg:relative fixed right-0 top-0  h-[400px] py-[2rem] px-[1.5rem] bg-[#13152D] rounded-bl-[12rem] z-[99]'>
         <div className='flex justify-between items-center'>
           <button className='text-white text-[11px] py-[0.4rem] px-[1rem] border border-[#E99517] uppercase rounded-md'>Sign up free</button>
           <div onClick={showSide} className='lg:hidden block text-white'>

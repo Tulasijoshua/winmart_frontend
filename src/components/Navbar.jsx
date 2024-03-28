@@ -13,6 +13,9 @@ const Navbar = () => {
                     <option value="all_category" className=''>All Category</option>
                     <option value="men_clothes" className=''>Men Clothes</option>
                     <option value="ladies_dress" className=''>Ladies Dress</option>
+                    <option value="ladies_dress" className=''>Sneakers</option>
+                    <option value="ladies_dress" className=''>Watch</option>
+                    <option value="ladies_dress" className=''>Stores</option>
                 </select>
             </div>
             <div className='lg:w-[200px] w-[150px] px-3 lg:py-[7px] py-[4px] flex justify-between items-center bg-[#F7F7F7] border border-gray-300 rounded-2xl'>

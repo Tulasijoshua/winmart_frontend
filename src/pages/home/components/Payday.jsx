@@ -25,7 +25,7 @@ const Payday = () => {
                     </div>
                 </div>
             </div>
-            <div className='sm:hidden'>
+            <div className='sm:hidden ss:block hidden'>
                 <img className='2xl:h-[420px] lg:h-[400px] md:h-[350px] xs:h-[320px] h-[300px] object-cover' src={halfPayday} alt="" />
             </div>
         </div>

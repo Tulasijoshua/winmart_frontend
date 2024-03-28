@@ -39,7 +39,7 @@ const Featured = ({title}) => {
   return (
     <div className='maxContainer xl:w-[70%] w-[85%] mx-auto lg:pt-[4rem] pt-[3rem]'>
         <div className='lg:pb-[0.8rem] flex justify-between items-center'>
-            <h2 className='text-[1.1rem] pb-[1.3rem]'>{title}</h2>
+            <h2 className='ss:text-[1.1rem] text-[0.9rem]'>{title}</h2>
             <div className='flex justify-center items-center gap-[0.5rem]'>
                 <div className='text-gray-300'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
