@@ -21,7 +21,7 @@ const Home = () => {
                 <Navbar />
                 <HeroPage />
             </div>
-            <div className='2xl:w-[260px] xl:w-[240px] lg:w-[200px] w-[50px]'>
+            <div className='2xl:w-[240px] xl:w-[240px] lg:w-[200px] w-[50px]'>
                 <SignupFree />
             </div>
         </div>

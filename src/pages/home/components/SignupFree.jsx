@@ -24,7 +24,7 @@ const SignupFree = () => {
               </svg>
           </div>
         </div>
-        <div className='pt-[4rem] 2xl:px-[3.5rem] px-[1rem] flex flex-col justify-center items-end gap-[2.5rem]'>
+        <div className='pt-[4rem] 2xl:px-[2rem] px-[1rem] flex flex-col justify-center items-end gap-[2.5rem]'>
           <div className=' flex justify-center items-center gap-[2px] text-white'>
             <div className='text-[14px] font-light text-gray-200'>Food App</div>
             <div className='w-[1.5rem] h-[1.5rem]'>
