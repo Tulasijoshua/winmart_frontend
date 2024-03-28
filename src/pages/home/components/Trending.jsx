@@ -29,7 +29,7 @@ const Trending = () => {
     ]
   return (
     <div className='maxContainer pt-[1rem] pb-[2rem] xl:w-[70%] w-[85%] mx-auto'>
-        <div className='pb-[0.8rem] flex justify-between items-center'>
+        <div className=' flex justify-between items-center'>
             <h2 className='text-[1.1rem] pb-[1.3rem]'>Trending Products</h2>
             <div className='flex justify-center items-center gap-[0.5rem]'>
                 <div className='text-gray-300'>
@@ -44,7 +44,7 @@ const Trending = () => {
                 </div>
             </div>
         </div>
-        <section className='flex justify-between items-center flex-nowrap gap-[2.5rem] overflow-auto'>
+        <section className='py-[1rem] flex justify-between items-center flex-nowrap gap-[2.5rem] overflow-auto'>
             {
                 trending.map((trend, index) => {
                     return <div className='hover:scale-105 transition-all'>

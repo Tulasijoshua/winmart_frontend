@@ -25,7 +25,25 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      colors: {
+        midLight: "#DDC862",
+        midBlack: "#9D8822",
+        midDark: "#342D0B",
+        light: "#F4EDCB",
+        midGreen: "#34886D",
+        midGray: "#fef7ff",
+        blackClr: "#000",
+        whiteClr: "#fff",
+        blue: "#1877F2",
+        lightBlue: "#1D9BF0",
+        lightBlack: "rgba(0, 0, 0, 0.7)",
+        sideBack: "#9498FF4D",
+        lightLight: "#CCC4624D",
+        carLight: "#CCC462",
+        checkClr: "#07A58D"
+      }
+    },
   },
   plugins: [],
 }

@@ -30,6 +30,7 @@ const Navbar2 = () => {
 
             </div>
         </div>
+        <div className='fixed right-0 top-0 w-full h-[100vh] bg-blend-overlay transparent blur-md z-[99]'></div>
     </div>
   )
 }

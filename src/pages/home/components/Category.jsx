@@ -42,14 +42,14 @@ const Category = () => {
   return (
     <div className='maxContainer py-[3rem] xl:w-[70%] w-[85%] mx-auto'>
         <h2 className='text-[1.1rem] pb-[1.3rem]'>Category</h2>
-        <section className='xl:px-[6rem] px-[3rem] py-[1.5rem] md:flex justify-between items-center grid grid-cols-3 gap-[2rem] bg-[#F6F6F8]'>
+        <section className='xl:px-[6rem] xs:px-[3rem] py-[1.5rem] md:flex justify-between items-center grid grid-cols-3 xs:gap-[2rem] gap-[1rem] bg-[#F6F6F8]'>
             {
                 categories.map((cat, index) => {
                 return <div key={index} className='flex flex-col justify-center items-center gap-[0.4rem]'>
                     <div className='lg:w-[4rem] w-[3rem] lg:h-[3rem] h-[2.5rem]'>
                         <img className='w-full h-full object-contain' src={cat.img} alt="" />
                     </div>
-                    <div className='xl:text-[17px] lg:text-[16px] text-[14px]'>{cat.category}</div>
+                    <div className='xl:text-[17px] lg:text-[16px] xs:text-[14px] text-[12px]'>{cat.category}</div>
                 </div>
 
                 })
